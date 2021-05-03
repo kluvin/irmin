@@ -1,6 +1,12 @@
+# Unreleased
+
+### Added
+
+- **irmin-graphql**
+  - Added `last_modified` field to GraphQL interface (#1393, @kluvin)
+
 ## 2.5.1 (2021-02-19)
 
-- **irmin-git**
   - Use the last version of git 3.3.0. It fixes a bug about trailing LF on
     message. For Irmin users, it should not change anything (#1301, @dinosaure,
     @CraigFe)
